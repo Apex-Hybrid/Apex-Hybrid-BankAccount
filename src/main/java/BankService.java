@@ -33,7 +33,7 @@ public class BankService {
      */
     public void withdraw(double amount){
         if(balance - amount < 0) {
-            System.out.println("Not enough in balance.");
+            System.out.println("Not enough in balance. Please add more.");
         }
         else{
             balance -= amount;
